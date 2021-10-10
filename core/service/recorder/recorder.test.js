@@ -1,4 +1,4 @@
-const Recorder = require("../recorder")
+const Recorder = require("./recorder")
 
 const storage = "./recorder/"
 const recorder = new Recorder(storage)
