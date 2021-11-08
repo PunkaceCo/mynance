@@ -4,7 +4,7 @@ const crypto = require("crypto")
 class Binance {
 
     constructor() {
-        this.hostname = "api.binance.com"
+        this.hostname = "testnet.binance.vision"
         this.port = 443
         this.https = https
         this.crypto = crypto
