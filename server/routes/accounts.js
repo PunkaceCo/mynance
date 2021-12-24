@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
-const Account = require('../../core/service/binance/account')
-const accounts = require('../../core/data/accounts.json')
+const Account = require('../../core/api/binance/account')
+const accounts = require('../../data/apikey.json')
 
 router.get('/', (req, res, next) => {
 

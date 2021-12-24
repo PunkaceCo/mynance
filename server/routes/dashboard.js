@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
-const Binance = require('../../core/service/binance/binance')
-const Kraken = require('../api/kraken/kraken')
+const Binance = require('../../core/api/binance/binance')
+const Kraken = require('../../core/api/kraken/kraken')
 
 router.get('/', (req, res, next) => {
 
